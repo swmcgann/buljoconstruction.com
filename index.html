@@ -1,62 +1,111 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Remodeling Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; color: #111; }
-    header { padding: 28px 18px; border-bottom: 1px solid #eee; }
-    h1 { margin: 0 0 6px; font-size: 22px; }
-    .sub { margin: 0; opacity: .75; }
-    .wrap { max-width: 1100px; margin: 0 auto; }
-    .grid { display: grid; gap: 10px; padding: 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-    .card { border-radius: 10px; overflow: hidden; background: #f7f7f7; }
-    img { width: 100%; height: 240px; object-fit: cover; display: block; }
-    footer { padding: 18px; border-top: 1px solid #eee; font-size: 14px; opacity: .8; }
-    a { color: inherit; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buljo Construction | Chicago, IL</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+  color: #222;
+}
+
+header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.sub {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #d4af37;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background: #c19b2e;
+}
+
+.gallery {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  color: white;
+  margin-top: 40px;
+  font-size: 14px;
+}
+</style>
 </head>
+
 <body>
-  <header>
-    <div class="wrap">
-      <h1>Remodeling Portfolio</h1>
-      <p class="sub">Kitchens • Bathrooms • Basements • Custom Work</p>
-      <p class="sub">Call/Text: <a href="tel:+10000000000">(000) 000-0000</a></p>
-    </div>
-  </header>
 
-  <main class="wrap">
-    <div class="grid">
-      <!-- Replace these with your photos later -->
-<div class="card"><img src="photo1.jpeg"></div>
-<div class="card"><img src="photo2.jpeg"></div>
-<div class="card"><img src="photo3.jpeg"></div>
-<div class="card"><img src="photo4.jpeg"></div>
-<div class="card"><img src="photo5.jpeg"></div>
-<div class="card"><img src="photo6.jpeg"></div>
-<div class="card"><img src="photo7.jpeg"></div>
-<div class="card"><img src="photo8.jpeg"></div>
-<div class="card"><img src="photo9.jpeg"></div>
-<div class="card"><img src="photo10.jpeg"></div>
-<div class="card"><img src="photo11.jpeg"></div>
-<div class="card"><img src="photo12.jpeg"></div>
-<div class="card"><img src="photo13.jpeg"></div>
-<div class="card"><img src="photo14.jpeg"></div>
-<div class="card"><img src="photo15.jpeg"></div>
-<div class="card"><img src="photo16.jpeg"></div>
-<div class="card"><img src="photo17.jpeg"></div>
-    </div>
-  </main>
+<header>
+  <h1>Buljo Construction</h1>
+  <div class="sub">Kitchen • Bath • Home Remodeling</div>
+  <div class="sub">Serving Chicago, IL</div>
+  <a class="button" href="#">Call for Free Estimate</a>
+</header>
 
-  <footer>
-    <div class="wrap">
-      © <span id="y"></span> Remodeling Portfolio • All photos are examples of completed work
-    </div>
-  </footer>
+<div class="gallery">
+  <img src="photo1.jpeg">
+  <img src="photo2.jpeg">
+  <img src="photo3.jpeg">
+  <img src="photo4.jpeg">
+  <img src="photo5.jpeg">
+  <img src="photo6.jpeg">
+  <img src="photo7.jpeg">
+  <img src="photo8.jpeg">
+  <img src="photo9.jpeg">
+  <img src="photo10.jpeg">
+  <img src="photo11.jpeg">
+  <img src="photo12.jpeg">
+  <img src="photo13.jpeg">
+  <img src="photo14.jpeg">
+  <img src="photo15.jpeg">
+  <img src="photo16.jpeg">
+  <img src="photo17.jpeg">
+</div>
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+<footer>
+© 2026 Buljo Construction • Chicago, Illinois
+</footer>
+
 </body>
 </html>
